@@ -1,0 +1,13 @@
+/* CSS */
+body:hidden {
+  display: none;
+}
+
+body {
+  background-color: rgb(8, 1, 46);
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-kerning: unset;
+}
+
