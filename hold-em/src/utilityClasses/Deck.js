@@ -2,9 +2,9 @@
 // this is just some javaScript
 class Deck{
   constructor(){
-    //no need to call constructor
     this.cards = [];
   }
+
   create = () => {
     const suits = ['h', 's', 'd', 'c'];
     suits.forEach((suit) => {
@@ -15,9 +15,15 @@ class Deck{
   }
 
   shuffle = () => {
-    console.log("shuffling");
+    for(let i = 0; i < 10000000; i++) {
+      let randOne = Math.floor(Math.random() * 52);
+      let randTwo = Math.floor(Math.random() * 52);
+      let temp = this.cards[randOne];
+      this.cards[randOne] = this.cards[randTwo];
+      this.cards[randTwo] = temp;
+    }
   }
-
+  
 
 
 }
