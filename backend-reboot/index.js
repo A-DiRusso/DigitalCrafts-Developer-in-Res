@@ -13,6 +13,8 @@
 // const woof = bark();
 // greet(woof);
 
+
+
 // function helloWorld() {
 //   console.log('Hello World!');
 // }
@@ -40,6 +42,8 @@ setInterval(() => console.log('Hello world'), 1000);
 // console.log(catSound);
 
 //three ways to grab just cat
+
+
 
 // target it when you use it
 //catSound.cat; - Option Zero
