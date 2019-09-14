@@ -1,0 +1,17 @@
+/* CSS */
+body {
+  background-color: lightskyblue;
+  font-family: 'Indie Flower', cursive;
+}
+
+h1 {
+  color: rgb(4, 84, 232);
+}
+
+li {
+  color: royalblue;
+}
+
+p, h2 {
+  color: navy;
+}
