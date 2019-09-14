@@ -1,0 +1,57 @@
+/* CSS */
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit; 
+}
+
+body {
+    width: 87vw;
+    background-color: rgb(41, 27, 59);
+    color: rgb(47, 18, 177);
+    text-align: center;
+}
+
+.calc-container{
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 150px);
+    height: 500px;
+    width: 300px;
+    border: 5px solid rgba(255, 115, 0, 0.2);
+    background-color: rgba(255, 100, 0, 0.5);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding-left: 3%;
+    padding-right: 3%; 
+    padding-bottom: 3%; 
+}
+
+.screen {
+    border: 5px solid rgba(0, 0, 0, 0.212);
+    background-color: rgba(1, 255, 1, 0.336);
+    color: rgb(0, 250, 0);
+    height: 15%;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 7%;
+    font-size: 3.3rem;
+    margin-bottom: 3%;
+    text-align: right;
+}
+
+.calc {
+    border: 5px solid rgb(0, 140, 255);
+    background-color: rgb(0, 150, 255);
+    width: 20%;
+    height: 15%;
+    border-radius: 10%;
+    font-size: 3.3rem;
+    padding: 3px;
+    margin-right: 5px;
+}
