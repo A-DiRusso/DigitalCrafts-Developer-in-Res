@@ -4,3 +4,19 @@
   padding: 20px;
   margin-top: 50px;
 }
+h1 {
+  color: white;
+  font-size: 47;
+  font-family: 'Lobster', cursvie;
+}
+.the-numbers{
+  color: white;
+  font-size: 31px;
+  font-family: 'Lobster', cursive;
+}
+
+.player-message{
+  color: rgb(250, 78, 199);
+  font-size: 39px;
+  font-family: 'Lobster', cursive;
+}
