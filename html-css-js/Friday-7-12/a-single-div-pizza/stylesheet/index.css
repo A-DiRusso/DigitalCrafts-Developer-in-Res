@@ -1,0 +1,9 @@
+/* CSS */
+
+div {
+    background: #237449;
+    background-color: linear-gradient(to bottom,
+                                  transparent 62%,
+                                  black(.3) 100%);
+    box-shadow: 2px 2px 3px black(.3);
+}

@@ -1,0 +1,25 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+box-sizing: inherit;
+}
+
+.google-tag:active {
+    color: violet;
+}
+
+.google-tag:link {
+    color: black;
+}
+
+.google-tag:hover {
+    color: red;
+}
+
+.google-tag:visited {
+    color: blue;
+}
+
+

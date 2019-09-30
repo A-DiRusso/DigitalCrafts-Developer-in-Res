@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(134, 119, 119);
+        }
+        header, main, footer {
+            color: rgb(121, 179, 233);
+            transition: 5s;
+        }
+        header:hover {
+            color: purple;
+        }
+        main:hover {
+            color: lime;
+        }
+        footer:hover {
+            color: fuchsia;
+        }
+        .form-container {
+            margin: 10px auto;
+            width: 800px;
+            border: 1px solid pink;
+            color: rgb(121, 179, 233);
+        }
+    </style>
+</head>
+<body>
+     <header>
+         This is the Header.
+     </header>
+     <main>
+         This is the Main content.
+     </main>
+     <footer>
+         This is the Footer content.
+     </footer>
+    <table border=1>
+        <thead>
+            <tr>
+                <th style="color:red">Name</th>
+                <th style="color:blue">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Gary</td>
+                <td>gary@digitalcrafts</td>
+            </tr>
+            <tr>
+                <td>Gary</td>
+                <td>gary@digitalcrafts</td>
+            </tr>
+            <tfoot>
+                <td colspan="2">
+                    There are 2 pieces of data.
+                </td>
+            </tfoot>
+        </tbody>
+    </table>
+    <br />
+    <form class="form-container" action="gohere.axpx" method="GET">
+        <label for="email">Enter Your Email and Password:<br />Email
+            <input required aria-required="true" type="text"  name="email" placeholder="name@email.com">
+            <!-- required aria-required="true" for screen readers-->
+        </label>
+        <label for="password">Password
+            <input type="password" required aria-required="true">
+        </label>
+    </form>
+    <br />
+    <form>
+        <input type="text" placeholder="email">
+        <input type="radio" />
+        <input type="checkbox" />
+        <input type="password" />
+    </form>
+    <select>
+        <option value="volvo">Volvo</option>
+        <option selected value="saab">Saab</option>
+        <option value="audi">Audi</option>
+    </select>
+    <br />    
+    <textarea name="Text Area" id="text-area" cols="30" rows="10"></textarea>
+    <br />    
+    <!-- this one will automatically try to submit to the server -->
+    <button type="submit">Submit</button>
+    <!-- this one will just be a button -->
+    <button type="button">Button</button>
+    <a class="google-tag" href="https://www.google.com" target="_blank">Google</a>
+</body>
+</html>

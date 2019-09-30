@@ -1,0 +1,50 @@
+/* CSS */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+p {
+    font-size: 1.6rem;
+}
+strong {
+    font-size: 1.6rem;
+}
+
+.container {
+    border: 10px solid black;
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.textbox {
+    border: 5px solid black;
+    height: 28rem;
+    width: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-around;
+    padding-top: 16%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+@media screen and (max-width: 700px) {
+    p {
+        font-size: 2.5rem;
+        color: red;
+    }
+    strong {
+        font-size: 1.6rem;
+        color: black;
+    }
+}
+

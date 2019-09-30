@@ -1,0 +1,45 @@
+/* CSS */
+
+html {
+box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+    
+
+button {
+    background-color: rgb(207, 214, 221);
+    width: 20%
+}
+
+button:nth-child(3) {
+    width: 24.25%;
+}
+span {
+    background-color: rgb(207, 214, 221); 
+    display: block;
+    min-height: 30px;
+    width: 20%;
+    text-align: center;
+    padding-top: 7px;
+}
+
+input {
+    width: 80%;
+    min-height: 30px;
+}
+
+h2, p, h3 {
+    text-align: center;
+}
+
+.container > div {
+    display: flex;
+    margin-bottom: 10px;
+}
+div > div {
+    display: flex;
+    justify-content: space-between;
+}
