@@ -1,0 +1,19 @@
+{
+  "name": "node-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "pg-promise": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0"
+  }
+}
